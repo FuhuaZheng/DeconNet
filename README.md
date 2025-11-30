@@ -1,5 +1,5 @@
 Instructions  
-1. Model 1 and Model 2 are two independent models trained in this study. After entering each model’s directory, run 'Step1, Step2, Step3' in order:  
+1. Model 1 and Model 2 are two independent models trained in this study. After entering each model’s directory, run 'Step 1, Step 2, Step 3' in order:  
 &nbsp;&nbsp;&nbsp;&nbsp;Step 1: Use the pretrained model to extract the ASTFs of target earthquakes.  
 &nbsp;&nbsp;&nbsp;&nbsp;Step 2: Generate plots and compute CCs and misfits to evaluate the accuracy of the ASTFs outputs.  
 &nbsp;&nbsp;&nbsp;&nbsp;Step 3: Apply the second seismic moment method to invert the finite source parameters. (This step requires CVX.)
@@ -9,6 +9,6 @@ CVX is a MATLAB-based software for disciplined convex programming, used to solve
 (2)  Extract the package to any folder of your choice. This will create a folder named cvx.  
 (3)  Open MATLAB and add the CVX folder to your MATLAB path.  
 (4)  In the MATLAB command window, run:  
-&nbsp;&nbsp;&nbsp;&nbsp;cd ./cvx  &nbsp;&nbsp;&nbsp;&nbsp; % Please replace with the actual path to your CVX folder  
+&nbsp;&nbsp;&nbsp;&nbsp;cd ./cvx  &nbsp;&nbsp;&nbsp;&nbsp; % Replace with the actual path to your CVX folder  
 &nbsp;&nbsp;&nbsp;&nbsp;cvx_setup  
-The ‘cvx_setup’ function performs a series of checks and configurations to ensure that the installation is correct.  
+The 'cvx_setup' function performs a series of checks and configurations to ensure that the installation is correct.  
